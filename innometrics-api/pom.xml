@@ -9,7 +9,7 @@
 	</parent>
 	<artifactId>innometrics-api</artifactId>
 	<packaging>jar</packaging>
-	<name>Innometrics Data Access Layer</name>
+	<name>Innometrics API to interact between different modules</name>
 	<properties>
 		<main.basedir>${basedir}/../..</main.basedir>
 	</properties>
