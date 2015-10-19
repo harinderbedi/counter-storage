@@ -49,6 +49,8 @@ public class NamedCounterEndpoint {
 	private void validateParam(final String name) {
 		if (name == null) {
 			throw new IllegalArgumentException("Parameter 'name' cannot be null");
+		} else if (name.length() > 250) {
+			throw new IllegalArgumentException("Parameter 'name' cannot be more than 250");
 		}
 	}
 
